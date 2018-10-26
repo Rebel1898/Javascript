@@ -86,6 +86,6 @@ function calculador(array)
     return (suma)
 
 }
-array=[2,0,2,2,2,2,2]
+array=[2,0,5,2,2,2,2]
 console.log(array.length);
 console.log(calculador(array));

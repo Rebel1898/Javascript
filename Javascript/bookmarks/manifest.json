@@ -1,0 +1,31 @@
+{
+
+  "description": "Download all bookmarks as separate html",
+  "manifest_version": 2,
+  "name": "Bookmarkit",
+  "version": "1.0",
+  "homepage_url": "",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  
+
+  "permissions": [
+    "bookmarks"
+  ],
+
+  "browser_action": 
+    }],
+
+    "default_title": "Bookmarkit",
+    "default_popup": "popup/choose_bookmarks.html"
+  },
+
+ // "web_accessible_resources": [
+ //   "beasts/frog.jpg",
+ //   "beasts/turtle.jpg",
+ //   "beasts/snake.jpg"
+ // ]
+
+}
