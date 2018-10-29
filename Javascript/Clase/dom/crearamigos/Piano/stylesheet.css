@@ -1,0 +1,106 @@
+h1{
+text-align:center;
+
+}
+body{
+
+    padding: 0;
+    margin:0;
+    background-color:lavender;
+
+}
+
+li{
+
+color:red;
+list-style-type: square;
+text-decoration: underline solid darkcyan;
+}
+article{
+margin-top: 100px;
+margin-left: 400px;
+
+
+
+}
+.notablanca
+{
+ position:center;   
+ width: 25px;
+ height:80px;
+ background-color: ivory;
+ padding: 0px;
+ margin:-2px;
+display: inline-block;
+}
+
+
+#Dos{
+    position:center;   
+    width: 15px;
+    height:60px;
+    background-color: black;
+    padding: 0px;
+    margin-left:-155px;
+    margin-top:-5px;
+
+    position: absolute;
+   display: inline-block;
+}
+
+#Res{
+    position:center;   
+    width: 15px;
+    height:60px;
+    background-color: black;
+    padding: 0px;
+    margin-left:-130px;
+    margin-top:-5px;
+
+    position: absolute;
+    display: inline-block;
+
+}
+
+
+#Mis{
+    position:center;   
+    width: 15px;
+    height:60px;
+    background-color: black;
+    padding: 0px;
+    margin-left:-81px;
+    margin-top:-5px;
+
+    position: absolute;
+   display: inline-block;
+
+}
+
+#Fas{
+    position:center;   
+    width: 15px;
+    height:60px;
+    background-color: black;
+    padding: 0px;
+    margin-left:-56px;
+    margin-top:-5px;
+
+    position: absolute;
+   display: inline-block;
+
+}
+
+#Sols{
+    position:center;   
+    width: 15px;
+    height:60px;
+    background-color: black;
+    padding: 0px;
+    margin-left:-31px;
+    margin-top:-5px;
+
+    position: absolute;
+   display: inline-block;
+
+}

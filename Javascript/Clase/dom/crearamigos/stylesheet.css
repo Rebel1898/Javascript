@@ -1,0 +1,18 @@
+h1{
+text-align:center;
+
+}
+body{
+
+    padding: 0;
+    margin:0;
+    background-color:lavender;
+
+}
+
+li{
+
+color:red;
+list-style-type: square;
+text-decoration: underline solid darkcyan;
+}

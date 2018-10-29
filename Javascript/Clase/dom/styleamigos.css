@@ -1,0 +1,54 @@
+
+
+h1{
+
+color: red;
+text-emphasis: bold;
+font-size: 50px;
+text-align: center;
+}
+
+
+img{
+
+width: 200px;
+}
+
+span{
+
+font-size:70px;
+
+
+}
+li {
+    list-style: none;
+
+
+}
+li *{
+    list-style: none;
+ display: inline-block;
+  
+
+
+}
+
+button{
+    color:black;
+    text-emphasis: bold;
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    
+}
+
+
+.borraboton{
+    color:black;
+    font-size:20px;
+    text-emphasis:bold;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+
+}
