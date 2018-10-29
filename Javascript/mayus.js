@@ -27,10 +27,9 @@ document.getElementById("taxo").onclick = function () {
 
     for (let index = 0; index < separat.length; index++) {
 
-        //document.getElementById("parrafo1").innerHTML = document.getElementById("parrafo1").innerHTML.replace((separat[index].charAt(0)), (separat[index].charAt(0).toUpperCase() ));
-        array[index] = separat[index].replace(separat[index].charAt(0), separat[index].charAt(0).toUpperCase());
-
-
+        
+        array[index] = separat[index].toLowerCase().replace(separat[index].charAt(0).toLowerCase(), separat[index].charAt(0).toUpperCase());
+//Por alguna razon, x.replace(x,y) X debe ser exactamente igual.
     }
     var arrayjunto = array.join(" ");
     console.log(arrayjunto);
