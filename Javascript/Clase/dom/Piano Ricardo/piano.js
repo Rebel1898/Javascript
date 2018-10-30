@@ -28,7 +28,7 @@ let notas = [
  
  
  
- function generateStructure(arrNotes, divN) {
+ function generateStructure(arrNotes, divN) { //arrNotes notas para generar la estructura y divN donde quiero que se ancle
  
     let finalHtml = '';
  
@@ -36,7 +36,7 @@ let notas = [
  
     arrNotes.forEach(element => {
  
-        finalHtml += element.tono ? `<div class="note" data-snd="${element.sonido}"></div>` : `<div class="note semi" data-snd="${element.sonido}"></div>`;
+        finalHtml += element.tono ? `<div class="note" data-snd="${element.sonido}"></div>` : `<div class="note semi" data-snd="${element.sonido}"></div>`;//? es if y ://
  
     });
  

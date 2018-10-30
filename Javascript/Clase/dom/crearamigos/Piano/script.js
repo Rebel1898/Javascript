@@ -15,7 +15,7 @@ let notasblack = [
     { name: 'Dos', sonido: "./wav/a1s.wav", tono: "false" },
     { name: 'Res', sonido: "./wav/b1.wav", tono: "false" },
     { name: 'Mis', sonido: "./wav/c1.wav", tono: "false" },
-    { name: 'Fa', sonido: "./wav/d1.wav", tono: "false" },
+    { name: 'Fa', sonido: "./wav/d1.wav",  tono: "false" },
     { name: 'Sol', sonido: "./wav/f1.wav", tono: "false" },
 
 ]
