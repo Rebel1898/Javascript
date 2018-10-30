@@ -31,7 +31,7 @@ function parseaamigos(liamigos) {
     
            <div>${liamigos[index].email}</div>
     
-           <div><button id='saluda' data-value="${liamigos[index].name}">Saludar</button></div>
+           <div><button class="saluda" data-value="${liamigos[index].name}">Saludar</button></div>
     
           </li >`;
     }
