@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Registrate</title>
+</head>
+<body>
+   <h1>Registrate</h1> <p style="font-size:40px;">El imperio te necesita.</p>
+  <!----> 
+  
+ 
+   <article>
+<div id=mensaje class="error"> </div>
+
+<form  id="loginform" method="POST"  novalidate>
+
+    <label for="nombre:">Nombre<br></label>
+    <input id="username" type="text" name="nombre" placeholder="Introduce tu nombre" required maxlength="25" minlength="6">
+    <div id="usererror" class="esconder"> </div>
+
+
+    <label  for="pass"> <br>Introduzca su contraseña<br></label>
+    <input id="llave" type="password" placeholder="password"  pattern=".{8,12}" pattern="[a-zA-Z0-9]*" required title="8 to 12 characters">
+    <div id="usererror2" class="esconder"> </div>
+
+
+  <!--   <label for="pass"> <br>Vuelva a introducir su contraseña<br></label>
+    <input type="password" placeholder="password"  pattern=".{8,12}" required title="8 to 12 characters">-->
+
+
+
+<hr>
+    <div><button id="boton"><a>Submit</a> </button></div>
+
+</div>
+
+
+
+
+
+
+
+
+</form>
+
+
+</body>
+<script src="forms.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+</html>
