@@ -25,6 +25,10 @@ let amigos = [
 
 ];
 
+
+
+
+
 //$("#amigos").html("Estos son mis amigos");
 
 //$("#amigos").html(function() {
